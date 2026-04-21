@@ -11,15 +11,15 @@ structure for future  AI model
 # AI Product Suggestion System (Basic Version)
 
 def suggest_phone(budget, purpose):
-    if budget <= 15000:
-        if purpose == "gaming":
-            return ["Redmi Note 12", "Realme Narzo 50"]
-        elif purpose == "camera":
-            return ["Samsung M14", "Redmi 12"]
-        else:
-            return ["Realme C55", "Redmi 12"]
+ if budget <= 15000:
+     if purpose == "gaming":
+     return ["Redmi Note 12", "Realme Narzo 50"]
+    elif purpose == "camera":
+      return ["Samsung M14", "Redmi 12"]
+     else:
+        return ["Realme C55", "Redmi 12"]
 
-    elif budget <= 30000:
+elif budget <= 30000:
         if purpose == "gaming":
             return ["iQOO Z6 Pro", "Poco X5 Pro"]
         elif purpose == "camera":
