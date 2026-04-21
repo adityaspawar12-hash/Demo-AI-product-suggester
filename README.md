@@ -10,18 +10,24 @@ structure for future  AI model
 ## code
 def suggest_phone(budget, purpose):
  if budget <= 15000:
+ 
      if purpose == "gaming":
      return ["Redmi Note 12", "Realme Narzo 50"]
-    elif purpose == "camera":
+     
+    elif purpose == "camera";
       return ["Samsung M14", "Redmi 12"]
+      
      else:
         return ["Realme C55", "Redmi 12"]
 
 elif budget <= 30000:
-        if purpose == "gaming":
+
+        if purpose == "gaming";
             return ["iQOO Z6 Pro", "Poco X5 Pro"]
+            
         elif purpose == "camera":
             return ["Samsung F54", "Vivo V27"]
+            
         else:
             return ["OnePlus Nord CE 3 Lite", "iQOO Z7"]
 
