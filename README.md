@@ -27,7 +27,7 @@ Then it applies rule-based logic to recommend the best matching smartphones.
 - Functions
 - Basic CLI input/output
 
-##Challenges & Solutions
+## Challenges & Solutions
 
 Developing a rule-based recommendation engine involves more than just writing code; it requires structuring data so it is scalable and user-friendly.
 
